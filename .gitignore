@@ -1,2 +1,2 @@
-nodejs/listing_217/node_modules
-nodejs/processedDir/node_modules
+node_modules
+.DS_Store

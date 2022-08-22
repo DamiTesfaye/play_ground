@@ -1,0 +1,22 @@
+const userController = {
+    getAllUsers: function(req, res) {
+        return res.status(200).json({status: 'OK', message: 'Hello, world! ii'});
+    },
+    getUserById: function(req, res) {
+        const id = req.params.id;
+        
+        return res.status(200).json({status: 'OK', message: `Hello, world! id: ${id}`});
+    
+    },
+    createNewUser: function(req, res, next) {
+        const {firstname, lastname} = req.body;
+
+        const data = {firstname, lastname};
+
+        return res.status(200).json({status: 'OK', message: `Hello, world!`, data: data});
+    },
+    updateUserById: function(req, res) {},
+    deleteUserById: function(req, res) {},
+}
+
+module.exports = userController;
