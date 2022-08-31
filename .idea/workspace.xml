@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6afe075f-9140-49d2-a84f-d7c62a833520" name="Changes" comment="" />
+    <list default="true" id="6afe075f-9140-49d2-a84f-d7c62a833520" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/config/mongo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/controllers/delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/controllers/room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/controllers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/middlewares/jwt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/models/chatmessages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/models/chatroom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/routes/chatroom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/routes/delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/routes/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/chat-app/utils/WebSockets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,13 +49,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tweezie/Documents/Playground/play_ground",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/tweezie/.nvm/versions/node/v18.7.0/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nodejs/chat-app/config" />
+      <recent name="$PROJECT_DIR$/nodejs/chat-app/server" />
+      <recent name="$PROJECT_DIR$/nodejs/chat-app" />
       <recent name="$PROJECT_DIR$/listing_218/files" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -56,10 +78,32 @@
       <workItem from="1660124227608" duration="5122000" />
       <workItem from="1660234660872" duration="2304000" />
       <workItem from="1660400541419" duration="14759000" />
+      <workItem from="1660584451798" duration="129000" />
+      <workItem from="1661199213522" duration="1441000" />
+      <workItem from="1661200710621" duration="3108000" />
+      <workItem from="1661261688362" duration="8431000" />
+      <workItem from="1661449757065" duration="5877000" />
+      <workItem from="1661613203676" duration="2973000" />
+      <workItem from="1661800105435" duration="13000000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,11 +1,11 @@
-const net = require('net')
+const net = require("net");
 
-const server = net.createServer(socket => {
-    socket.on('data', data => {
-        socket.write(data)
-    })
-})
+const server = net.createServer((socket) => {
+  socket.on("data", (data) => {
+    socket.write(data);
+  });
+});
 
 server.listen(8080, () => {
-    console.log('listening on 8080')
-})
+  console.log("listening on 8080");
+});

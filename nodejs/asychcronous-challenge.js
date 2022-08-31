@@ -1,8 +1,8 @@
 function asyncFunction(callback) {
-    setTimeout(callback, 200)
+  setTimeout(callback, 200);
 }
 
-let color = 'blue';
+let color = "blue";
 
 // asyncFunction(() => {
 //     console.log('color is ', color)
@@ -10,10 +10,10 @@ let color = 'blue';
 
 // fix: use closure
 
-(color => {
-   asyncFunction(() => {console.log('color is ', color)})
-})(color)
+((color) => {
+  asyncFunction(() => {
+    console.log("color is ", color);
+  });
+})(color);
 
-color = 'green'
-
-
+color = "green";
